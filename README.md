@@ -105,19 +105,6 @@ Each convolution is a custom **Avalon-MM component** created in Platform Designe
 
 These figures are for the whole system, including the HPS interconnect.
 
-### Performance
-
-<!-- TODO: fill in with values measured by camera_live_v2.py -->
-
-| Metric | Value |
-|---|---|
-| Test accuracy | XX % |
-| FPGA time (Conv1 to Conv3) | XX ms |
-| ARM time (dense layers) | XX ms |
-| Total time on the board | XX ms |
-| End-to-end latency (PC → board → PC) | XX ms |
-
----
 
 ## Repository structure
 
@@ -191,8 +178,7 @@ ARM Cortex-A9 · rsYocto Linux · C/C++ · Python · OpenCV · TensorFlow / TFLi
 
 ## Authors
 
+- ghassen mahmoud
 - Rania Ben Aicha
-- [Teammate 1]
-- [Teammate 2]
 
 Project carried out at ESIGELEC (Rouen, France), 2026.
